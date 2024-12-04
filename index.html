@@ -16,7 +16,6 @@
 		<!-- CSS -->
 		<link href="./index_files/bootstrap.min.css" rel="stylesheet">
 		<link href="./index_files/magnific-popup.min.css" rel="stylesheet">
-		<link href="./index_files/swiper-bundle.min.css" rel="stylesheet">
 		<link href="./index_files/theme.min.css" rel="stylesheet">
 		<!-- Fonts/Icons -->
 		<link href="./index_files/bootstrap-icons.css" rel="stylesheet">
@@ -927,7 +926,8 @@
 					
 							<!-- Contact Form -->
 							<div class="contact-form mt-4 mt-lg-5 text-xl-end">
-								<form method="post" id="contactform" data-hs-cf-bound="true">
+								<form action="https://api.web3forms.com/submit" method="post" id="contactform" data-hs-cf-bound="true">
+									<input type="hidden" name="access key" value="00ed92cb-5032-4578-b9be-306700b2271e">
 									<div class="row gx-3 gy-0">
 										<div class="col-12 col-md-6">
 											<input type="text" id="name" name="name" placeholder="Name" required="">
